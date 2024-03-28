@@ -2,8 +2,7 @@
 
 class Floor{
     constructor(){
-        this.img = new Image();
-        this.img.src = "/img/floor.png";
+        this.img = document.getElementById("floorImg");
         this.x = 0; 
     }
 

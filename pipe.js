@@ -8,10 +8,8 @@ class Pipe{
         this.offset = 70;
         this.min = 100;
         this.max = 500;
-        this.imgPipe = new Image();
-        this.imgPipe.src = "img/pipe.png";
-        this.imgPipeTop = new Image();
-        this.imgPipeTop.src = "img/pipeTop.png";  
+        this.imgPipe = document.getElementById("pipeImg");
+        this.imgPipeTop = document.getElementById("pipeTopImg"); 
         this.color_test = "blue"; 
     }
 
